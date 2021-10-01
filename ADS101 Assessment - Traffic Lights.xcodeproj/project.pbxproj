@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323505F426E270B8008BCEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323505F326E270B8008BCEE9 /* AppDelegate.swift */; };
+		323505F626E270B8008BCEE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323505F526E270B8008BCEE9 /* SceneDelegate.swift */; };
+		323505F826E270B8008BCEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323505F726E270B8008BCEE9 /* ViewController.swift */; };
+		323505FB26E270B8008BCEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323505F926E270B8008BCEE9 /* Main.storyboard */; };
+		323505FD26E270B8008BCEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323505FC26E270B8008BCEE9 /* Assets.xcassets */; };
+		3235060026E270B8008BCEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323505FE26E270B8008BCEE9 /* LaunchScreen.storyboard */; };
+		3235060926E271E2008BCEE9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3235060826E271E2008BCEE9 /* Raleway-Regular.ttf */; };
+		3235060B26E27209008BCEE9 /* Orbitron-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3235060A26E27209008BCEE9 /* Orbitron-ExtraBold.ttf */; };
+		3235060D26E27211008BCEE9 /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3235060C26E27211008BCEE9 /* Orbitron-Bold.ttf */; };
+		32A6184026E3C34E0013D8CE /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32A6183F26E3C34E0013D8CE /* Raleway-Black.ttf */; };
+		32E2D52726E316BE0009E966 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2D52626E316BE0009E966 /* HomeViewController.swift */; };
+		32E2D52926E34DB30009E966 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2D52826E34DB30009E966 /* RedViewController.swift */; };
+		32E2D52B26E357890009E966 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2D52A26E357890009E966 /* GreenViewController.swift */; };
+		32E2D52D26E357940009E966 /* AmberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2D52C26E357940009E966 /* AmberViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323505F026E270B8008BCEE9 /* ADS101 Assessment - Traffic Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADS101 Assessment - Traffic Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323505F326E270B8008BCEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323505F526E270B8008BCEE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		323505F726E270B8008BCEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		323505FA26E270B8008BCEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323505FC26E270B8008BCEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323505FF26E270B8008BCEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3235060126E270B8008BCEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3235060826E271E2008BCEE9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		3235060A26E27209008BCEE9 /* Orbitron-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3235060C26E27211008BCEE9 /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Bold.ttf"; sourceTree = "<group>"; };
+		32A6183F26E3C34E0013D8CE /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		32A9B99026E5DCFF00D80AFD /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		32E2D52626E316BE0009E966 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		32E2D52826E34DB30009E966 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		32E2D52A26E357890009E966 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		32E2D52C26E357940009E966 /* AmberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmberViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323505ED26E270B8008BCEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323505E726E270B7008BCEE9 = {
+			isa = PBXGroup;
+			children = (
+				323505F226E270B8008BCEE9 /* smartSignals */,
+				323505F126E270B8008BCEE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323505F126E270B8008BCEE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323505F026E270B8008BCEE9 /* ADS101 Assessment - Traffic Lights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323505F226E270B8008BCEE9 /* smartSignals */ = {
+			isa = PBXGroup;
+			children = (
+				3235060726E271C1008BCEE9 /* Fonts */,
+				323505F326E270B8008BCEE9 /* AppDelegate.swift */,
+				323505F526E270B8008BCEE9 /* SceneDelegate.swift */,
+				323505F726E270B8008BCEE9 /* ViewController.swift */,
+				32E2D52626E316BE0009E966 /* HomeViewController.swift */,
+				32E2D52826E34DB30009E966 /* RedViewController.swift */,
+				32E2D52C26E357940009E966 /* AmberViewController.swift */,
+				32E2D52A26E357890009E966 /* GreenViewController.swift */,
+				323505F926E270B8008BCEE9 /* Main.storyboard */,
+				323505FC26E270B8008BCEE9 /* Assets.xcassets */,
+				323505FE26E270B8008BCEE9 /* LaunchScreen.storyboard */,
+				3235060126E270B8008BCEE9 /* Info.plist */,
+			);
+			path = smartSignals;
+			sourceTree = "<group>";
+		};
+		3235060726E271C1008BCEE9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32A9B99026E5DCFF00D80AFD /* Raleway-Medium.ttf */,
+				3235060826E271E2008BCEE9 /* Raleway-Regular.ttf */,
+				3235060C26E27211008BCEE9 /* Orbitron-Bold.ttf */,
+				32A6183F26E3C34E0013D8CE /* Raleway-Black.ttf */,
+				3235060A26E27209008BCEE9 /* Orbitron-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323505EF26E270B8008BCEE9 /* ADS101 Assessment - Traffic Lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3235060426E270B8008BCEE9 /* Build configuration list for PBXNativeTarget "ADS101 Assessment - Traffic Lights" */;
+			buildPhases = (
+				323505EC26E270B8008BCEE9 /* Sources */,
+				323505ED26E270B8008BCEE9 /* Frameworks */,
+				323505EE26E270B8008BCEE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADS101 Assessment - Traffic Lights";
+			productName = smartSignals;
+			productReference = 323505F026E270B8008BCEE9 /* ADS101 Assessment - Traffic Lights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323505E826E270B7008BCEE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					323505EF26E270B8008BCEE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 323505EB26E270B7008BCEE9 /* Build configuration list for PBXProject "ADS101 Assessment - Traffic Lights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323505E726E270B7008BCEE9;
+			productRefGroup = 323505F126E270B8008BCEE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323505EF26E270B8008BCEE9 /* ADS101 Assessment - Traffic Lights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323505EE26E270B8008BCEE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3235060026E270B8008BCEE9 /* LaunchScreen.storyboard in Resources */,
+				323505FD26E270B8008BCEE9 /* Assets.xcassets in Resources */,
+				3235060D26E27211008BCEE9 /* Orbitron-Bold.ttf in Resources */,
+				323505FB26E270B8008BCEE9 /* Main.storyboard in Resources */,
+				3235060926E271E2008BCEE9 /* Raleway-Regular.ttf in Resources */,
+				3235060B26E27209008BCEE9 /* Orbitron-ExtraBold.ttf in Resources */,
+				32A6184026E3C34E0013D8CE /* Raleway-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323505EC26E270B8008BCEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E2D52D26E357940009E966 /* AmberViewController.swift in Sources */,
+				32E2D52B26E357890009E966 /* GreenViewController.swift in Sources */,
+				32E2D52926E34DB30009E966 /* RedViewController.swift in Sources */,
+				323505F826E270B8008BCEE9 /* ViewController.swift in Sources */,
+				323505F426E270B8008BCEE9 /* AppDelegate.swift in Sources */,
+				323505F626E270B8008BCEE9 /* SceneDelegate.swift in Sources */,
+				32E2D52726E316BE0009E966 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		323505F926E270B8008BCEE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323505FA26E270B8008BCEE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323505FE26E270B8008BCEE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323505FF26E270B8008BCEE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3235060226E270B8008BCEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3235060326E270B8008BCEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3235060526E270B8008BCEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MPD929H3X;
+				INFOPLIST_FILE = smartSignals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.smartSignals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3235060626E270B8008BCEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MPD929H3X;
+				INFOPLIST_FILE = smartSignals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.smartSignals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323505EB26E270B7008BCEE9 /* Build configuration list for PBXProject "ADS101 Assessment - Traffic Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3235060226E270B8008BCEE9 /* Debug */,
+				3235060326E270B8008BCEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3235060426E270B8008BCEE9 /* Build configuration list for PBXNativeTarget "ADS101 Assessment - Traffic Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3235060526E270B8008BCEE9 /* Debug */,
+				3235060626E270B8008BCEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323505E826E270B7008BCEE9 /* Project object */;
+}
